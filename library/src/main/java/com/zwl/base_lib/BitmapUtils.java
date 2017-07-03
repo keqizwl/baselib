@@ -29,6 +29,7 @@ public class BitmapUtils {
      */
     public class ImageFactory {
 
+        
         /**
          * Get bitmap from specified image path
          *
