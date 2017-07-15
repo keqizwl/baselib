@@ -6,7 +6,8 @@ import android.support.annotation.MenuRes;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import com.zwl.baseutils.view.ParamsNullChecker;
+import com.zwl.base_lib.view.ParamsNullChecker;
+
 
 /**
  * Created by hasee on 2016/9/23.
