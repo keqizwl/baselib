@@ -38,6 +38,12 @@ public abstract class BaseRecyclerViewAdapter<T> extends RecyclerView.Adapter<Ba
         this.layoutResId = layoutResId;
     }
 
+    public BaseRecyclerViewAdapter(Activity baseActivity, int layoutResId, List<T> datas) {
+        this.baseActivity = baseActivity;
+        this.layoutResId = layoutResId;
+        this.datas = datas;
+    }
+
     @Override
     public int getItemCount() {
         return datas.size();
